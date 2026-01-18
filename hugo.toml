@@ -1,0 +1,13 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Girish Shekhar - Blog'
+theme = 'PaperMod'
+
+[params]
+  author = 'Girish Shekhar'
+
+[[menu.main]]
+name = "Copyright"
+url = "/copyright/"
+weight = 10
+

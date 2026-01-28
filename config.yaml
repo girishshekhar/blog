@@ -1,4 +1,4 @@
-baseURL: https://girishshekhar.github.io/blog
+baseURL: https://girishshekhar.github.io/blog/
 title: Girish Shekhar
 languageCode: en-us
 
@@ -18,6 +18,21 @@ params:
   blogSiteURL: https://girishshekhar.github.io/blog
   linkedinURL: https://www.linkedin.com/in/girishshekhar
   
+  # fuseOpts:
+  #     isCaseSensitive: false
+  #     shouldSort: true
+  #     location: 0
+  #     distance: 1000
+  #     threshold: 0.4
+  #     minMatchCharLength: 0
+  #     keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # Tells every site to generate its own local search index
+
 # environments:
 #   development:
 #     params:

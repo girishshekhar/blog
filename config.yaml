@@ -17,7 +17,8 @@ params:
   mainSiteURL: https://girishshekhar.github.io
   blogSiteURL: https://girishshekhar.github.io/blog
   linkedinURL: https://www.linkedin.com/in/girishshekhar
-  
+  ShowPostNavLinks: true
+  ShowReadingTime : true
   # fuseOpts:
   #     isCaseSensitive: false
   #     shouldSort: true

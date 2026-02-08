@@ -1,4 +1,4 @@
-baseURL: https://girishshekhar.github.io/blog/
+baseURL: https://girishshekhar.com/blog/
 title: Girish Shekhar
 languageCode: en-us
 
@@ -14,11 +14,15 @@ server:
 
 params:
   author: Girish Shekhar
-  mainSiteURL: https://girishshekhar.github.io
-  blogSiteURL: https://girishshekhar.github.io/blog
+  mainSiteURL: https://girishshekhar.com
+  blogSiteURL: https://girishshekhar.com/blog
   linkedinURL: https://www.linkedin.com/in/girishshekhar
+  # mainSiteURL: https://girishshekhar.github.io
+  # blogSiteURL: https://girishshekhar.github.io/blog
+  # linkedinURL: https://www.linkedin.com/in/girishshekhar
   ShowPostNavLinks: true
   ShowReadingTime : true
+  ShowCodeCopyButtons: true
   # fuseOpts:
   #     isCaseSensitive: false
   #     shouldSort: true

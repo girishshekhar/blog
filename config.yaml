@@ -1,4 +1,4 @@
-baseURL: https://girishshekhar.com/blog/
+baseURL: https://blog.girishshekhar.com/
 title: Girish Shekhar
 languageCode: en-us
 
@@ -15,7 +15,7 @@ server:
 params:
   author: Girish Shekhar
   mainSiteURL: https://girishshekhar.com
-  blogSiteURL: https://girishshekhar.com/blog
+  blogSiteURL: https://blog.girishshekhar.com
   linkedinURL: https://www.linkedin.com/in/girishshekhar
   # mainSiteURL: https://girishshekhar.github.io
   # blogSiteURL: https://girishshekhar.github.io/blog

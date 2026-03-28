@@ -1,6 +1,6 @@
 ---
 title: "Scaling as a Principal Engineer Is a Step-Function Change, Not a Gradient"
-date: 2025-03-28
+date: 2026-03-28
 draft: false
 author: "Girish Shekhar"
 summary: >
@@ -16,7 +16,6 @@ series:
 ShowToc: true
 TocOpen: true
 ---
-```
 
 ## Why This Post Exists
 
@@ -98,43 +97,28 @@ The leader pressed. Hard. And eventually, the Senior PE shared his concerns—th
 
 Here's the transformation this framework enables:
 
+```mermaid
+graph TD
+    subgraph Without_Framework [WITHOUT THE FRAMEWORK]
+        A1[PE says something casual about timeline/approach] --> B1["Team assumes Position 1 <br>(expert authority)"]
+        B1 --> C1[Commitments made based on casual observation]
+        C1 --> D1["Things go wrong. Managers take the hit. <br>Trust erodes."]
+        
+        style A1 fill:#f96,stroke:#333
+        style D1 fill:#ff9999,stroke:#b22222
+    end
 ```
-WITHOUT THE FRAMEWORK:
-┌─────────────────────────────┐
-│ PE says something casual    │
-│ about timeline/approach     │
-│            │                │
-│            ▼                │
-│ Team assumes Position 1   │
-│ (expert authority)          │
-│            │                │
-│            ▼                │
-│ Commitments get made based  │
-│ on casual observation       │
-│            │                │
-│            ▼                │
-│ Things go wrong. Managers   │
-│ take the hit. Trust erodes. │
-└─────────────────────────────┘
 
-WITH THE FRAMEWORK:
-┌─────────────────────────────┐
-│ PE says: "Position 3    │
-│ thought here—take it with   │
-│ a grain of salt..."         │
-│            │                │
-│            ▼                │
-│ Team treats it as one       │
-│ data point among many       │
-│            │                │
-│            ▼                │
-│ Decision stays with people  │
-│ closest to the problem      │
-│            │                │
-│            ▼                │
-│ Better decisions. Trust     │
-│ preserved. PE stays credible│
-└─────────────────────────────┘
+```mermaid
+graph TD
+    subgraph With_Framework [WITH THE FRAMEWORK]
+        A2["PE says: 'Position 3 thought here—<br>take it with a grain of salt...'"] --> B2[Team treats it as one data point among many]
+        B2 --> C2[Decision stays with people closest to the problem]
+        C2 --> D2["Better decisions. Trust preserved. <br>PE stays credible."]
+        
+        style A2 fill:#69f,stroke:#333
+        style D2 fill:#99ff99,stroke:#228b22
+    end
 ```
 
 The problem isn't that PEs have opinions outside their expertise — everyone does. The problem occurs when you speak from Position 3 but people assume you're speaking from Position 1. That's when teams make commitments based on your casual observations. That's when estimates get baked into roadmaps even though you were spitballing. That's when managers who are accountable for the outcome get hurt by a statement you forgot you even made.

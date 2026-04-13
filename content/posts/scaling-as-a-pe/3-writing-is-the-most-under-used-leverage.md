@@ -1,6 +1,6 @@
 ---
 title: "Writing Is the Most Underused Leverage a Principal Engineer Has"
-date: 2025-07-12
+date: 2026-04-12
 draft: false
 author: "Girish Shekhar"
 summary: >

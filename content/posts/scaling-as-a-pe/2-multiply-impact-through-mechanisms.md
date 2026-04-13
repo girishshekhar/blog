@@ -67,16 +67,16 @@ Think about what TPMs actually build: project tracking systems, cross-team colla
 
 And they work because people trust that the mechanisms serve a real purpose. Not because the TPM has authority over anyone, but because the mechanism itself has earned credibility through consistent usefulness.
 
-As PEs, we can build the same kind of mechanisms, tuned to our domain. Architecture review processes. Technical decision frameworks. Documentation standards. Cross-team knowledge-sharing forums. Design principle repositories. These aren't administrative tasks. They're the infrastructure through which your technical judgment reaches the 500 or 5,000 engineers you'll never personally interact with.
+As PEs, we can build the same kind of mechanisms, tuned to our domain - Architecture review processes; Technical decision frameworks; Documentation standards; Cross-team knowledge-sharing forums; Design principle repositories. These aren't administrative tasks. They're the infrastructure through which your technical judgment reaches the 500 or 5,000 engineers you'll never personally interact with.
 
 Here's the contrast that makes this concrete:
 
 ```
 DIRECT LEVERAGE (doesn't scale):
-┌───────────────┐     ┌───────────┐
+┌───────────────┐      ┌───────────┐
 │  PE reviews   │────▶│ 1 design  │
-│  a design doc │     │ improves  │
-└───────────────┘     └───────────┘
+│  a design doc │      │ improves  │
+└───────────────┘      └───────────┘
   Time cost: 2-4 hours
   Impact radius: 1 team, 1 decision
 
@@ -85,7 +85,7 @@ SYSTEMIC LEVERAGE (scales):
 │ PE creates a      │────▶│ Every design doc across the  │
 │ decision-record   │     │ org includes alternatives    │
 │ template with     │     │ considered, tradeoffs made,  │
-│ required fields   │     │ and failure modes analyzed    │
+│ required fields   │     │ and failure modes analyzed   │
 └───────────────────┘     └──────────────────────────────┘
   Time cost: 8-16 hours (once)
   Impact radius: all teams, all decisions, ongoing
@@ -141,20 +141,20 @@ This is also why the Three-Position Framework from the first post matters so muc
 
 ```
                     ┌─────────────────────────────────┐
-                    │  Scalable PE Influence           │
-                    │                                  │
-                    │  = Systemic Leverage              │
-                    │    (mechanisms, forums,           │
-                    │     artifacts, processes)         │
-                    │                                  │
-                    │  × Technical Credibility          │
-                    │    (earned through competence,   │
-                    │     grounded in Position One     │
-                    │     expertise)                   │
-                    │                                  │
-                    │  This is multiplicative, not     │
-                    │  additive. Zero on either side   │
-                    │  means zero scaled impact.       │
+                    │  Scalable PE Influence          │
+                    │                                 │
+                    │  = Systemic Leverage            │
+                    │    (mechanisms, forums,         │
+                    │     artifacts, processes)       │
+                    │                                 │
+                    │  × Technical Credibility        │
+                    │    (earned through competence,  │
+                    │     grounded in Position One    │
+                    │     expertise)                  │
+                    │                                 │
+                    │  This is multiplicative, not    │
+                    │  additive. Zero on either side  │
+                    │  means zero scaled impact.      │
                     └─────────────────────────────────┘
 ```
 

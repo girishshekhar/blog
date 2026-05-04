@@ -1,5 +1,5 @@
 ---
-title: "Agent Communication Patterns, Part 1: The Distributed Systems Playbook in a New Medium"
+title: "The Distributed Systems Playbook in a New Medium"
 date: 2026-04-26
 draft: false
 author: "Girish Shekhar"

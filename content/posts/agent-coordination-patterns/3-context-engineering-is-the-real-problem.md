@@ -1,5 +1,5 @@
 ---
-title: "Agent Communication Patterns, Part 3: Context Is the Real Engineering Problem"
+title: "Context Is the Real Engineering Problem"
 date: 2026-05-10
 draft: false
 author: "Girish Shekhar"
